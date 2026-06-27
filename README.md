@@ -6,13 +6,13 @@ An interactive **Power BI dashboard** built to analyze marketing campaign perfor
 
 # 📸 Dashboard Preview
 
-![Dashboard Preview](dashboard-preview.png)
+![Dashboard Preview](file:///C:/Users/lalit/Downloads/dashboard-preview.png.pdf)
 
 ---
 
 # 📌 Project Overview
 
-This project demonstrates how Power BI can transform raw marketing campaign data into meaningful business insights. The dashboard provides an interactive way to analyze campaign performance, compare marketing channels, evaluate customer engagement, and measure overall campaign effectiveness.
+This project demonstrates how Power BI transforms raw marketing campaign data into meaningful business insights. The dashboard helps analyze campaign performance, compare marketing channels, evaluate customer engagement, and monitor ROI through interactive visualizations.
 
 ---
 
@@ -22,16 +22,19 @@ This project demonstrates how Power BI can transform raw marketing campaign data
 
 **Source:** Kaggle
 
-The dataset includes the following attributes:
+Dataset Link:
+https://www.kaggle.com/datasets/manishabhatt22/marketing-campaign-performance-dataset
+
+The dataset contains over **200,000 marketing campaign records** with the following fields:
 
 - Campaign ID
 - Company
 - Campaign Type
-- Marketing Channel
 - Target Audience
-- Campaign Duration
+- Duration
+- Marketing Channel
 - Acquisition Cost
-- ROI (Return on Investment)
+- ROI
 - Conversion Rate
 - Clicks
 - Impressions
@@ -39,9 +42,9 @@ The dataset includes the following attributes:
 - Customer Segment
 - Location
 - Language
-- Campaign Date
+- Date
 
-> **Note:** The dataset is not included in this repository because it exceeds GitHub's file upload size limit. You can download the same dataset by searching **"Marketing Campaign Performance Dataset"** on Kaggle.
+> **Note:** The dataset is not included in this repository because it exceeds GitHub's web upload size limit. It can be downloaded directly from the Kaggle dataset above. :contentReference[oaicite:0]{index=0}
 
 ---
 
@@ -75,21 +78,19 @@ The dataset includes the following attributes:
 
 - Power BI Desktop
 - Power Query
-- DAX (Data Analysis Expressions)
+- DAX
 - Microsoft Excel
-- Data Visualization
-- Business Intelligence
 
 ---
 
 # 💡 Key Insights
 
 - Compared ROI across different campaign types.
-- Identified the most effective marketing channels based on clicks.
-- Analyzed customer engagement across different languages.
-- Compared campaign performance across locations.
-- Evaluated conversion rates for different target audiences.
-- Enabled dynamic filtering using interactive slicers.
+- Identified the highest-performing marketing channels.
+- Evaluated customer engagement across multiple languages.
+- Analyzed conversion rates by target audience.
+- Compared campaign performance across different locations.
+- Built an interactive dashboard using slicers for dynamic filtering.
 
 ---
 
@@ -97,14 +98,13 @@ The dataset includes the following attributes:
 
 - Marketing Analytics
 - Business Intelligence
-- Data Visualization
 - Dashboard Design
+- Data Visualization
 - Data Cleaning
 - Data Transformation
 - KPI Reporting
 - DAX
 - Power Query
-- Analytical Thinking
 
 ---
 
@@ -122,10 +122,10 @@ marketing-analytics-dashboard/
 
 # 🚀 Future Improvements
 
-- Publish the dashboard using Power BI Service.
+- Publish the dashboard to Power BI Service.
 - Add predictive analytics for campaign performance.
 - Connect to live marketing data sources.
-- Build advanced DAX measures for deeper insights.
+- Create advanced DAX measures.
 
 ---
 
@@ -137,4 +137,4 @@ BBA (Marketing) | Aspiring Marketing & Data Analyst
 
 **GitHub:** https://github.com/serilalithadevi
 
-**LinkedIn:** https://www.linkedin.com/in/YOUR-LINKEDIN-URL/
+**LinkedIn:** https://www.linkedin.com/in/lalitha-devi-seri/
