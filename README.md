@@ -6,7 +6,7 @@ An interactive **Power BI dashboard** built to analyze marketing campaign perfor
 
 # 📸 Dashboard Preview
 
-![Dashboard Preview](file:///C:/Users/lalit/Downloads/dashboard-preview.png.pdf)
+![Dashboard Preview](https://github.com/serilalithadevi/marketing-analytics-dashboard/blob/main/dashboard-preview.png.pdf)
 
 ---
 
