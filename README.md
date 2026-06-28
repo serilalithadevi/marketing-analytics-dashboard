@@ -1,153 +1,131 @@
-#  Stack Overflow Developer Survey Analysis
+# 📊 Marketing Analytics Dashboard
 
-<p align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-
-</p>
+An interactive **Power BI dashboard** built to analyze marketing campaign performance using key marketing KPIs such as **ROI, Clicks, Impressions, Conversion Rate, and Customer Engagement**.
 
 ---
 
-# 📖 Overview
+# 📸 Dashboard Preview
 
-The **Stack Overflow Developer Survey Analysis** project explores developer demographics, programming language usage, employment patterns, remote work preferences, education levels, organization size, and industry trends using the Stack Overflow Developer Survey dataset.
-
-This project demonstrates an end-to-end data analytics workflow, including data cleaning, exploratory data analysis (EDA), data visualization, and interactive dashboard development using **Python** and **Power BI**.
+![Dashboard Preview](!(dashboard-preview.png)
 
 ---
 
-# 📊 Dashboard Preview
+# 📌 Project Overview
 
-<p align="center">
-<img src="Dashboard.png" width="100%" alt="Stack Overflow Developer Survey Dashboard">
-</p>
-
----
-
-# 🚀 Project Highlights
-
-- Analyzed **18,845** developer survey responses.
-- Performed data cleaning and preprocessing using **Pandas**.
-- Conducted Exploratory Data Analysis (EDA).
-- Built an interactive **Power BI Dashboard**.
-- Created visualizations using **Matplotlib**.
-- Generated insights into developer demographics, employment trends, and work preferences.
-
----
-
-# 🛠 Technologies Used
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Jupyter Notebook
-- Power BI
+This project demonstrates how Power BI transforms raw marketing campaign data into meaningful business insights. The dashboard helps analyze campaign performance, compare marketing channels, evaluate customer engagement, and monitor ROI through interactive visualizations.
 
 ---
 
 # 📂 Dataset
 
-This project uses the **Stack Overflow Developer Survey** dataset for analysis and dashboard development.
+**Dataset Name:** Marketing Campaign Performance Dataset
 
-📊 **View Dataset**
+**Source:** Kaggle
 
-https://docs.google.com/spreadsheets/d/1EIQDsehrT6YNdgF89yCPWdVE_lYkETV6Ux4c-zLLsNE/edit?usp=sharing
+Dataset Link:
+https://www.kaggle.com/datasets/manishabhatt22/marketing-campaign-performance-dataset
 
----
+The dataset contains over **200,000 marketing campaign records** with the following fields:
 
-# 📊 Power BI Dashboard
+- Campaign ID
+- Company
+- Campaign Type
+- Target Audience
+- Duration
+- Marketing Channel
+- Acquisition Cost
+- ROI
+- Conversion Rate
+- Clicks
+- Impressions
+- Engagement Score
+- Customer Segment
+- Location
+- Language
+- Date
 
-The dashboard provides interactive insights into:
-
-- Total Respondents
-- Countries Surveyed
-- Average Coding Experience
-- Average Work Experience
-- Remote Work Distribution
-- Employment Status
-- Age Distribution
-- Education Level
-- Organization Size
-- Industry Distribution
-- Job Satisfaction
-- Respondents by Country
-
-### Dashboard Files
-
-📊 **Power BI Dashboard (.pbix)**
-
-https://github.com/serilalithadevi/StackOverflow-Developer-Survey-Analysis/blob/main/StackOverflow_Developer_Survey_Dashboard.pbix
-
-📄 **Dashboard PDF**
-
-https://github.com/serilalithadevi/StackOverflow-Developer-Survey-Analysis/blob/main/StackOverflow_Developer_Survey_Dashboard.pdf
+> **Note:** The dataset is not included in this repository because it exceeds GitHub's web upload size limit. It can be downloaded directly from the Kaggle dataset above. :contentReference[oaicite:0]{index=0}
 
 ---
 
-# 📓 Jupyter Notebook
+# 📊 Dashboard KPIs
 
-The notebook contains the complete workflow including:
+- Total Campaigns
+- Total Clicks
+- Total Impressions
+- Average ROI
+- Average Conversion Rate
+- Average Engagement Score
 
-- Data Cleaning
-- Exploratory Data Analysis
+---
+
+# 📈 Dashboard Visualizations
+
+- Monthly ROI Trend
+- Average ROI by Campaign Type
+- Clicks by Marketing Channel
+- ROI by Company
+- Conversion Rate by Target Audience
+- Average ROI by Location
+- Engagement Score by Language
+- Campaign Distribution by Customer Segment
+- Campaign Duration Distribution
+- Interactive Slicers (Campaign Type, Marketing Channel, Location)
+
+---
+
+# 🛠️ Tools & Technologies
+
+- Power BI Desktop
+- Power Query
+- DAX
+- Microsoft Excel
+
+---
+
+# 💡 Key Insights
+
+- Compared ROI across different campaign types.
+- Identified the highest-performing marketing channels.
+- Evaluated customer engagement across multiple languages.
+- Analyzed conversion rates by target audience.
+- Compared campaign performance across different locations.
+- Built an interactive dashboard using slicers for dynamic filtering.
+
+---
+
+# 🎯 Skills Demonstrated
+
+- Marketing Analytics
+- Business Intelligence
+- Dashboard Design
 - Data Visualization
-- Insights
-
-📘 **Notebook**
-
-https://github.com/serilalithadevi/StackOverflow-Developer-Survey-Analysis/blob/main/StackOverflow_Developer_Survey_Analysis.ipynb
-
----
-
-# 📑 Project Report
-
-The report documents the project methodology, analysis, dashboard, findings, and conclusions.
-
-📑 **View Project Report**
-
-https://docs.google.com/presentation/d/1UEEPpBh4CYQc4PNLSfV7qFEc3lUhbHRx/edit?usp=sharing&ouid=103008228653281004937&rtpof=true&sd=true
-
----
-
-# 📈 Key Insights
-
-- Remote and Hybrid work arrangements are more common than fully in-office work.
-- Most respondents are employed full-time.
-- The largest respondent age group is **25–34 years**.
-- Bachelor's degree holders represent the largest education category.
-- Software Development is the leading industry among respondents.
-- Developers generally report moderate to high job satisfaction.
+- Data Cleaning
+- Data Transformation
+- KPI Reporting
+- DAX
+- Power Query
 
 ---
 
 # 📁 Repository Structure
 
-```text
-StackOverflow-Developer-Survey-Analysis/
+```
+marketing-analytics-dashboard/
 │
 ├── README.md
-├── Dashboard.png
-├── survey_data_updated_5.csv
-├── StackOverflow_Developer_Survey_Analysis.ipynb
-├── StackOverflow_Developer_Survey_Dashboard.pbix
-├── StackOverflow_Developer_Survey_Dashboard.pdf
-└── StackOverflow_Developer_Survey_Analysis_Report.pptx
+├── marketing-analytics-dashboard.pbix
+└── dashboard-preview.png
 ```
 
 ---
 
-# 🔮 Future Improvements
+# 🚀 Future Improvements
 
-- Compare technology trends across multiple Stack Overflow survey years.
-- Develop predictive models for technology adoption.
-- Build a web-based interactive dashboard.
-- Extend the analysis with additional datasets.
+- Publish the dashboard to Power BI Service.
+- Add predictive analytics for campaign performance.
+- Connect to live marketing data sources.
+- Create advanced DAX measures.
 
 ---
 
@@ -155,20 +133,8 @@ StackOverflow-Developer-Survey-Analysis/
 
 **Lalitha Devi Seri**
 
-📧 **Email**
+BBA (Marketing) | Aspiring Marketing & Data Analyst
 
-serilalithadevi@gmail.com
+**GitHub:** https://github.com/serilalithadevi
 
-💼 **LinkedIn**
-
-https://www.linkedin.com/in/lalitha-devi-seri/
-
-🐙 **GitHub**
-
-https://github.com/serilalithadevi
-
----
-
-#  Support
-
-If you found this project helpful, consider giving it a ⭐ on GitHub.
+**LinkedIn:** https://www.linkedin.com/in/lalitha-devi-seri/
